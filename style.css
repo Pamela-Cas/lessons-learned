@@ -1,15 +1,25 @@
-body{
+body {
+    font-family: 'Courier New', Courier, monospace;
     background-color: rgb(253, 251, 251)}
+    
 img {
     width: 250px;
 }
-#cabecalho{
+
+#cabecalho {
 top: 0; position: fixed;
 background-color: rgb(140, 141, 139);
 }
-#titulo{
+
+#titulo {
 
 }
-h1{
+.caixa {
+   background-color: rgb(252, 10, 10);
+    margin: 0px;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    border: 10px solid blue;
 
 }
