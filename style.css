@@ -1,29 +1,108 @@
-body {
-    background-color: rgb(253, 251, 251);
+/* gerais */
+
+#msite{
+  margin: 0%, 10%;
 }
 
+/* tags */
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+footer {
+  font-weight: 600;
+  margin-top: 20px;
+  padding-top: 20px;
+  background-color: rgb(241, 235, 243);
+  color: blue
+}
+
+/* ids */
 #cabecalho {
-    top: 0%;
-    position: fixed;
+  position: fixed;
+  top: 0;
+  background-color: rgb(241, 235, 243);
+  width: 100%;
+  padding-top: 10px;
+  padding-left: 10px;
+
 }
 
 #titulo {
-    color:seagreen
+  color:crimson
 
 }
 
-img {
-    width: 200;
+#minha_foto {
+  margin-top: 110px;
+  margin-left: 200px;
+
+}
+
+#licoes {
+  float: left;
+
+}
+
+#licoes_aprendidas {
+  margin: 20px;
+
+}
+
+#licoes_a_aprender {
+  margin: 20px;
+
+}
+
+#apresentacao {
+  line-height: 40px;
+  margin-top: 55px;
+  text-align: justify;
+  max-width: 800px;
+  font-family: serif;
+  font-size: 25px;
+}
+
+#depoimento01 {
+  line-height: 40px;
+  margin: 0px;
+  font-family: serif
+  text-align: justify;
+  max-width: 800px;
+  font-size: 25px;
+}
+
+/* classes
+configuracão de links em css - botao
+https://www.w3schools.com/css/css_link.asp
+*/
+
+
 }
 
 .lado-direito {
+  display: inline-block;
+  vertical-align: top;
+  width: 60%;
 
 }
-.caixa {
-   background-color: rgb(252, 10, 10);
-    margin: 0px;
-    width: 100px;
-    height: 100px;
-    padding: 20px;
-    border: 10px solid blue;
 
+.lado-esquerdo {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+
+}
+
+.table1 {
+  border: 1px solid blue;
+  border-radius: 0%;
+  width: 600px;
+
+}
+
+.link {
+  text-decoration: none;
+  color: blue
+
+}
